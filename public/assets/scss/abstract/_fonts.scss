@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Product-Bold';
+    src: url('../../fonts/Product-Sans/ProductSans-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Product-Regular';
+    src: url('../../fonts/Product-Sans/ProductSans-Regular.ttf');
+}
+
+
+// Font Family
+$hind: 'Hind', sans-serif;
+$product-bold: Product-Bold;
+$product-regular: Product-Regular;
+$fontawesome: "Font Awesome 5 Pro";
