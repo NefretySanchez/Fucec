@@ -14,7 +14,7 @@ class HomeTwo extends React.Component {
     render() {
         return (
             <React.Fragment>
-            <HeaderTwo />
+            <HeaderTwo  />
             <HomeTwoMain />
             <FooterStyleTwo />
             </React.Fragment>

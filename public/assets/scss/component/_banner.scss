@@ -1,74 +1,97 @@
-@use '../abstract' as *;
+@use "../abstract" as *;
 
 /*----------------------------------------*/
 /*  05. BANNER CSS START
 /*----------------------------------------*/
 
-.banner{
-    &__item{
-        padding: 50px 40px;
-        @include background();
-        @include border-radius(4px);
+.banner {
+  &__item {
+    padding: 50px 40px;
+    @include background();
+    @include border-radius(4px);
 
-        @media #{$md}{
-            padding-left: 25px;
-            padding-right: 25px;
-        }
-        @media #{$sm}{
-            padding-left: 25px;
-            padding-right: 25px;
-        }
-        & span{
-            font-size: 14px;
-            font-weight: 500;
-            color: $white;
-            background: $e-pink;
-            display: inline-block;
-            height: 20px;
-            line-height: 22px;
-            padding: 0 14px;
-            margin-bottom: 15px;
-            @include border-radius(10px);
-            text-transform: capitalize;
-            &.orange{
-                background: $e-orange;
-            }
-        }
+    @media #{$md} {
+      padding-left: 25px;
+      padding-right: 25px;
     }
-    &__title{
-        font-size: 26px;
-        margin-bottom: 30px;
-        & a{
-            &:hover{
-                color: $e-blue;
-            }
-        }
+    @media #{$sm} {
+      padding-left: 25px;
+      padding-right: 25px;
     }
-    &__thumb{
-        position: absolute;
-        top: 56%;
-        @include transform(translateY(-50%));
-        right: 10px;
-        @media #{$lg}{
-            right: 0;
-        }
-        @media #{$sm}{
-            right: 0;
-        }
-        & img{
-            @media #{$lg}{
-                width: 240px;
-            }
-            @media #{$sm}{
-                width: 240px;
-            }
-        }
-        &-2{
-            top: 63%;
-        }
+    & span {
+      font-size: 8px;
+      font-weight: 500;
+      color: $white;
+      background: $e-red;
+      display: inline-block;
+      height: 20px;
+      line-height: 22px;
+      padding: 0 14px;
+      margin-bottom: 15px;
+      @include border-radius(10px);
+      text-transform: capitalize;
+      &.orange {
+        background: $e-orange;
+      }
     }
-    &__content{
-        position: relative;
-        z-index: 1;
+  }
+  &__title {
+    font-size: 24px;
+    color: $white;
+    margin-bottom: 0px;
+    & a {
+      &:hover {
+        color: $e-blue;
+      }
     }
+  }
+  &__thumb {
+    position: absolute;
+    top: 50%;
+    @include transform(translateY(-50%));
+    right: 0px;
+    @media #{$lg} {
+      right: 0;
+    }
+    @media #{$sm} {
+      right: 0;
+    }
+    & img {
+      min-height: 275px;
+      @media #{$lg} {
+        width: 240px;
+      }
+      @media #{$sm} {
+        width: 240px;
+      }
+    }
+    &-2 {
+      top: 63%;
+    }
+  }
+  &__content {
+    position: relative;
+    z-index: 1;
+    min-height: 175px;
+    p {
+      color: $white;
+      margin-bottom: 0;
+    }
+    a.e-btn {
+      margin-top: 20px;
+      font-size: 18px;
+      font-family: $product-bold;
+      &:hover{
+        background: $black;
+      }
+      &.banner-btn{
+        background: $black;
+        margin-top: 50px;
+        &:hover{
+            background: $white;
+            color: $black;
+          }
+      }
+    }
+  }
 }

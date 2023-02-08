@@ -1,49 +1,62 @@
-import React, { Component } from 'react';
-import Link from 'next/link';
+import React, { Component } from "react";
+import Link from "next/link";
 
 class Banner extends Component {
-
-    render() {
-
-        return (
-        <main>
-            <section className="banner__area pb-110">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
-                            <div className="banner__item p-relative mb-40" style={{ backgroundImage:`url(${'assets/img/banner/banner-bg-1.jpg'})`}}>
-                                <div className="banner__content">
-                                    <span>Free</span>
-                                    <h3 className="banner__title">
-                                        <Link href="/course-details"><a>Germany Foundation <br/> Document</a></Link>
-                                    </h3>
-                                    <Link href="/course-details"><a className="e-btn e-btn-2">View Courses</a></Link>
-                                </div>
-                                <div className="banner__thumb d-none d-sm-block d-md-none d-lg-block">
-                                <img src="assets/img/banner/banner-img-1.png" alt="img not found"/>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
-                            <div className="banner__item p-relative mb-40" style={{ backgroundImage:`url(${'assets/img/banner/banner-bg-2.jpg'})`}}>
-                                <div className="banner__content">
-                                <span className="orange">new</span>
-                                <h3 className="banner__title">
-                                    <Link href="/course-details"><a>Online Courses <br/>From Eduka University</a></Link>
-                                </h3>
-                                <Link href="/course-details"><a className="e-btn e-btn-2">Find Out More</a></Link>
-                                </div>
-                                <div className="banner__thumb banner__thumb-2 d-none d-sm-block d-md-none d-lg-block">
-                                <img src="assets/img/banner/banner-img-2.png" alt="img not found"/>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+  render() {
+    return (
+      <main>
+        <section className="banner__area pb-110">
+          <div className="container">
+            <div className="row">
+              <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+                <div
+                  className="banner__item p-relative mb-40"
+                  style={{ background: "#6E8D50" }}
+                >
+                  <div className="banner__content">
+                    <span>Nuestras sedes</span>
+                    <h3 className="banner__title">Sede Principal: Cartagena</h3>
+                    <p>Barrio Centro, Avenida Venezuela</p>
+                    <p>Edificio City Bank, Oficina 5CE</p>
+                    <Link href="/course-details">
+                      <a className="e-btn e-btn-2">Como llegar</a>
+                    </Link>
+                  </div>
+                  <div className="banner__thumb d-none d-sm-block d-md-none d-lg-block">
+                    <img
+                      src="assets/img/img_fucec/Enmascarar grupo 2.png"
+                      alt="img not found"
+                    />
+                  </div>
                 </div>
-            </section>
-        </main>
-        );
-    }
+              </div>
+              <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-6">
+                <div
+                  className="banner__item p-relative mb-40"
+                  style={{ background: "#2745FB" }}
+                >
+                  <div className="banner__content">
+                    <span>Nuestras sedes</span>
+                    <h3 className="banner__title">Sede Arjona</h3>
+                    <p>Calle Nueva, Cra. 45 #51-167 a 51-1</p>
+                    <Link href="/course-details">
+                      <a className="e-btn e-btn-2 banner-btn">Como llegar</a>
+                    </Link>
+                  </div>
+                  <div className="banner__thumb d-none d-sm-block d-md-none d-lg-block">
+                    <img
+                      src="assets/img/img_fucec/Enmascarar grupo 1.png"
+                      alt="img not found"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    );
+  }
 }
 
 export default Banner;

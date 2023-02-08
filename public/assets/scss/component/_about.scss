@@ -104,6 +104,9 @@
                     color: $e-green;
                     padding-right: 9px;
                 }
+                & span{
+                    font-family: $product-bold;
+                }
             }
         }
     }

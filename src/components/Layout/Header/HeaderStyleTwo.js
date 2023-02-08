@@ -5,7 +5,8 @@ import BurgerMenus from "./BurgerMenus";
 import Head from "next/head";
 import Image from "next/image";
 
-const HeaderTwo = () => {
+const HeaderTwo = (props) => {
+  const { isHome } = props;
   const [menuOpen, setMenuOpen] = useState(false);
 
   const router = useRouter();
@@ -43,7 +44,7 @@ const HeaderTwo = () => {
       <header>
         <div
           id="header-sticky"
-          className="header__area header__transparent header__padding-2"
+          className={isHome ? "header__area header__transparent header__padding-2 ": "header__area header__transparent header__padding-2 header__white"}
         >
           <div className="container">
             <div className="row align-items-center">
@@ -72,7 +73,7 @@ const HeaderTwo = () => {
                           </Link>
                         </li>
                         <li>
-                          <Link href="/course-grid">
+                          <Link href="/about">
                             <a>Nosotros</a>
                           </Link>
                         </li>
