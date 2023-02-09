@@ -1,9 +1,9 @@
 import React from "react";
+import FormacionGridMain from "../components/CourseGrid/FormacionGridMain";
 import FooterStyleTwo from "../components/Layout/Footer/FooterStyleTwo";
 import HeaderTwo from "../components/Layout/Header/HeaderStyleTwo";
-import BlogMain from "../components/Blog/BlogMain";
 
-class Blog extends React.Component {
+class FormacionGrid extends React.Component {
   static getInitialProps({ store }) {}
 
   constructor(props) {
@@ -14,11 +14,11 @@ class Blog extends React.Component {
     return (
       <React.Fragment>
         <HeaderTwo isHome={false} />
-        <BlogMain />
+        <FormacionGridMain />
         <FooterStyleTwo />
       </React.Fragment>
     );
   }
 }
 
-export default Blog;
+export default FormacionGrid;

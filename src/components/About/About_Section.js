@@ -93,7 +93,7 @@ class AboutSection extends Component {
                     </li>
                   </ul>
                 </div>
-                <Link href="/contact">
+                <Link href="#portafolio">
                   <a className="e-btn e-btn-border">Saber más</a>
                 </Link>
               </div>

@@ -63,7 +63,7 @@
     top: 20px;
     left: 20px;
 
-    & a {
+    & span {
       display: inline-block;
       height: 24px;
       line-height: 24px;
@@ -705,9 +705,9 @@
     margin-left: 12px;
 
     & h4 {
-      font-size: 15px;
+      font-size: 18px;
       font-weight: 500;
-      color: $e-text-4;
+      color: $e-text-8;
       display: inline-block;
       margin-bottom: 0;
     }
@@ -743,7 +743,8 @@
         height: 35px;
         line-height: 37px;
         padding: 0 20px;
-        font-size: 15px;
+        font-size: 18px;
+        font-family: $product-regular;
         color: $e-text-4;
         font-weight: 500;
         text-transform: capitalize;

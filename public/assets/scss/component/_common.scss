@@ -343,6 +343,10 @@ p {
   background: $footer-bg-3;
 }
 
+.border-bottom-gray{
+border-bottom: 1px solid #707070;
+}
+
 // .primary-bg {
 // 	background: #222;
 // }
@@ -848,7 +852,11 @@ p {
           line-height: inherit;
           @include border-radius(0);
           border: none;
-
+          font-size: 18px;
+          font-family: $product-bold;
+          @media #{$xxs} {
+            font-size: 14px;
+          }
           &:hover {
             color: $e-blue;
             background: inherit;

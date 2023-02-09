@@ -43,22 +43,16 @@ class Service extends Component {
                   </svg>
                 </div>
                 <div className="services__content">
-                  <h3 className="services__title">
-                    <Link href="/about">
-                      <a>
-                      +20 programas
-en línea
-                      </a>
-                    </Link>
-                  </h3>
-                  <p>Cursos y diplomados que abarcan todas las áreas del conocimiento.</p>
+                  <h3 className="services__title">+20 programas en línea</h3>
+                  <p>
+                    Cursos y diplomados que abarcan todas las áreas del
+                    conocimiento.
+                  </p>
 
-                  <Link href="/about">
-                    <a className="link-btn-2">
-                      <i className="fas fa-arrow-right"></i>
-                      <i className="fas fa-arrow-right"></i>
-                    </a>
-                  </Link>
+                  <span className="link-btn-2">
+                    <i className="fas fa-arrow-right"></i>
+                    <i className="fas fa-arrow-right"></i>
+                  </span>
                 </div>
               </div>
             </div>
@@ -88,22 +82,16 @@ en línea
                   </svg>
                 </div>
                 <div className="services__content">
-                  <h3 className="services__title">
-                    <Link href="/about">
-                      <a>
-                      Programas de
-alta demanda
-                      </a>
-                    </Link>
-                  </h3>
-                  <p>Programas génico laborales ideales para las ofertas de la actualidad.</p>
+                  <h3 className="services__title">Programas de alta demanda</h3>
+                  <p>
+                    Programas génico laborales ideales para las ofertas de la
+                    actualidad.
+                  </p>
 
-                  <Link href="/about">
-                    <a className="link-btn-2">
-                      <i className="fas fa-arrow-right"></i>
-                      <i className="fas fa-arrow-right"></i>
-                    </a>
-                  </Link>
+                  <span className="link-btn-2">
+                    <i className="fas fa-arrow-right"></i>
+                    <i className="fas fa-arrow-right"></i>
+                  </span>
                 </div>
               </div>
             </div>
@@ -131,22 +119,16 @@ alta demanda
                   </svg>
                 </div>
                 <div className="services__content">
-                  <h3 className="services__title">
-                    <Link href="/about">
-                      <a>
-                      Mejoramiento
-continuo
-                      </a>
-                    </Link>
-                  </h3>
-                  <p>Diseñar e implementar estrategias para mejores procesos de formación.</p>
+                  <h3 className="services__title">Mejoramiento continuo</h3>
+                  <p>
+                    Diseñar e implementar estrategias para mejores procesos de
+                    formación.
+                  </p>
 
-                  <Link href="/about">
-                    <a className="link-btn-2">
-                      <i className="fas fa-arrow-right"></i>
-                      <i className="fas fa-arrow-right"></i>
-                    </a>
-                  </Link>
+                  <span className="link-btn-2">
+                    <i className="fas fa-arrow-right"></i>
+                    <i className="fas fa-arrow-right"></i>
+                  </span>
                 </div>
               </div>
             </div>
@@ -175,22 +157,16 @@ continuo
                   </svg>
                 </div>
                 <div className="services__content">
-                  <h3 className="services__title">
-                    <Link href="/about">
-                      <a>
-                      Cultura de
-innovación
-                      </a>
-                    </Link>
-                  </h3>
-                  <p>Formación para el trabajo y el desarrollo humano enfocada en la innovación.</p>
+                  <h3 className="services__title">Cultura de innovación</h3>
+                  <p>
+                    Formación para el trabajo y el desarrollo humano enfocada en
+                    la innovación.
+                  </p>
 
-                  <Link href="/about">
-                    <a className="link-btn-2">
-                      <i className="fas fa-arrow-right"></i>
-                      <i className="fas fa-arrow-right"></i>
-                    </a>
-                  </Link>
+                  <span className="link-btn-2">
+                    <i className="fas fa-arrow-right"></i>
+                    <i className="fas fa-arrow-right"></i>
+                  </span>
                 </div>
               </div>
             </div>

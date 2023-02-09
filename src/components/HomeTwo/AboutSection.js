@@ -32,8 +32,7 @@ class About extends Component {
                   />
                 </div>
                 <div className="about__student ml-270 mt--80">
-                  <Link href="/course-details">
-                    <a>
+           
                       <img
                         src="assets/img/img_fucec/Elipse 6.png"
                         alt="img not found"
@@ -50,8 +49,7 @@ class About extends Component {
                         src="assets/img/img_fucec/Elipse 9.png"
                         alt="img not found"
                       />
-                    </a>
-                  </Link>
+                    
                   <p>Únase a más de +4K estudiantes.</p>
                 </div>
               </div>
@@ -83,7 +81,7 @@ class About extends Component {
                     </li>
                   </ul>
                 </div>
-                <Link href="/contact">
+                <Link href="/about">
                   <a className="e-btn e-btn-border">Saber más</a>
                 </Link>
               </div>

@@ -1,27 +1,24 @@
-import React from 'react';
-import ContactMain from '../components/Contact/ContactMain';
-import HeaderThree from '../components/Layout/Header/HeaderStyleThree';
-import FooterThree from '../components/Layout/Footer/FooterStyleThree';
+import React from "react";
+import ContactMain from "../components/Contact/ContactMain";
+import FooterStyleTwo from "../components/Layout/Footer/FooterStyleTwo";
+import HeaderTwo from "../components/Layout/Header/HeaderStyleTwo";
 
 class Contact extends React.Component {
+  static getInitialProps({ store }) {}
 
-    static getInitialProps({store}) {}
+  constructor(props) {
+    super(props);
+  }
 
-    constructor(props) {
-        super(props);
-    }
-
-    render() {
-        return (
-            <React.Fragment>
-            <HeaderThree />
-            <ContactMain />
-            <FooterThree />
-            </React.Fragment>
-        );
-    }
+  render() {
+    return (
+      <React.Fragment>
+        <HeaderTwo isHome={false} />
+        <ContactMain />
+        <FooterStyleTwo />
+      </React.Fragment>
+    );
+  }
 }
 
-
 export default Contact;
-

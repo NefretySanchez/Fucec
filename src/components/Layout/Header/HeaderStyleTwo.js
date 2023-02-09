@@ -40,11 +40,20 @@ const HeaderTwo = (props) => {
           href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap"
           rel="stylesheet"
         />
+        <link
+          rel="icon"
+          href="assets/img/img_fucec/Grupo 105.png"
+          type="image/x-icon"
+        />
       </Head>
       <header>
         <div
           id="header-sticky"
-          className={isHome ? "header__area header__transparent header__padding-2 ": "header__area header__transparent header__padding-2 header__white"}
+          className={
+            isHome
+              ? "header__area header__transparent header__padding-2 "
+              : "header__area header__transparent header__padding-2 header__white"
+          }
         >
           <div className="container">
             <div className="row align-items-center">
@@ -78,29 +87,29 @@ const HeaderTwo = (props) => {
                           </Link>
                         </li>
                         <li className="has-dropdown">
-                          <Link href="/blog">
+                          <Link href="#">
                             <a>Formación</a>
                           </Link>
                           <ul className="submenu">
                             <li>
-                              <Link href="/blog">
+                              <Link href="/course">
                                 <a>Cursos</a>
                               </Link>
                             </li>
                             <li>
-                              <Link href="/blog-details">
+                              <Link href="/diplomados">
                                 <a>Diplomados</a>
                               </Link>
                             </li>
                             <li>
-                              <Link href="/blog-details">
+                              <Link href="/formacion-continua">
                                 <a>Formación continua</a>
                               </Link>
                             </li>
                           </ul>
                         </li>
                         <li>
-                          <Link href="/course-grid">
+                          <Link href="/blog">
                             <a>Blog</a>
                           </Link>
                         </li>
@@ -113,7 +122,7 @@ const HeaderTwo = (props) => {
                     </nav>
                   </div>
                   <div className="header__btn header__btn-2 ml-50 d-none d-sm-block">
-                    <Link href="/sign-up">
+                    <Link href="#">
                       <a className="e-btn">Tu Moodle</a>
                     </Link>
                   </div>

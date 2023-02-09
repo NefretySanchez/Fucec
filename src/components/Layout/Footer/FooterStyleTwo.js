@@ -5,14 +5,14 @@ const FooterStyleTwo = () => {
   return (
     <footer>
       <div className="footer__area ">
-        <div className="footer__top pt-190 pb-40 footer-bg-2">
+        <div className="footer__top pt-160 pb-40 footer-bg-2">
           <div className="container">
             <div className="row">
               <div className="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6">
                 <div className="footer__widget mb-50">
                   <div className="footer__widget-head mb-22">
                     <div className="footer__logo">
-                      <Link href="/">
+                      <Link href="#">
                         <a>
                           <img
                             src="assets/img/img_fucec/Grupo 24.svg"
@@ -77,12 +77,12 @@ const FooterStyleTwo = () => {
                           </Link>
                         </li>
                         <li>
-                          <Link href="/course-grid">
+                          <Link href="/course">
                             <a>Formación</a>
                           </Link>
                         </li>
                         <li>
-                          <Link href="/event-details">
+                          <Link href="/blog">
                             <a>Blog</a>
                           </Link>
                         </li>
@@ -102,7 +102,7 @@ const FooterStyleTwo = () => {
                     <div className="footer__link footer__link-2">
                       <ul>
                         <li>
-                          <Link href="/instructor">
+                          <Link href="#">
                             <a>Tu Moddle</a>
                           </Link>
                         </li>
@@ -148,9 +148,9 @@ const FooterStyleTwo = () => {
                   <p>
                     © 2022 Fucec, Todos los derechos reservados. Diseño y
                     DevLab:{" "}
-                    <Link href="/">
-                      <a>Félix estudio creativo. </a>
-                    </Link>
+                    <a href="https://felixestudiocreativo.com/" target="_blank">
+                      Félix estudio creativo.{" "}
+                    </a>
                   </p>
                 </div>
               </div>

@@ -4,7 +4,7 @@ import Link from "next/link";
 class WhyChoose extends Component {
   render() {
     return (
-      <section className="why__area pt-125">
+      <section className="why__area pt-125" id="portafolio">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-xxl-5 offset-xxl-1 col-xl-5 offset-xl-1 col-lg-6 col-md-8">
@@ -21,11 +21,11 @@ class WhyChoose extends Component {
                   </p>
                 </div>
                 <div className="why__btn">
-                  <Link href="/contact">
+                  <Link href="#">
                     <a className="e-btn e-btn-3 mr-30">Descargar brochure</a>
                   </Link>
 
-                  <Link href="/about">
+                  <Link href="/course">
                     <a className="link-btn">
                       Ver cursos
                       <i className="fas fa-arrow-right"></i>

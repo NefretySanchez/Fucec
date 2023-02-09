@@ -17,14 +17,14 @@ class CtaTwo extends Component {
                 <div className="cta__apps d-lg-flex justify-content-end p-relative z-index-1">
                   <a
                     target="_blank"
-                    href="https://www.apple.com/app-store/"
+                    href="mailto:gerencia@fucec.com.co"
                     className="mr-10"
                   >
                     Correo electrónico
                   </a>
                   <a
                     target="_blank"
-                    href="https://play.google.com/store/apps"
+                    href="https://wa.me/573013712233"
                     className="btn-whatsapp"
                   >
                     Whatsapp

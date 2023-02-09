@@ -1,30 +1,69 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 class BlogDesc extends Component {
-
-    render() {
-
-        return (
-            <div>
-                <div className="blog__text mb-40">
-                    <p>Me old mucker argy-bargy  I'm telling pear shaped Jeffrey super brilliant, I excuse my French blatant gormless up the duff, cup of char up the kyver tosser cras happy days. The full monty he nicked it he legged it bum bag burke plastered arse over tit it's your round owt to do with me pardon you, on your bike mate hanky panky mush cuppa only a quid crikey Jeffrey skive off, faff about so I said what a load of rubbish blag David knees up cockup cras. Argy-bargy give us a bell wellies gosh skive off old bodge cheesed off A bit of how's your father off his nut bamboozled, bugger say I'm telling morish bleeding boot up the kyver nice one brilliant, ruddy jolly good fanny around chinwag amongst brown bread arse brolly. Horse play it's all gone to pot codswallop easy peasy mush knees up down the pub jolly good nice one tosser it's your round lurgy, I vagabond barmy off his nut only a quid so I said is gosh Charles blow off, pardon me chip shop Richard spiffing skive off bleeding get stuffed mate porkies amongst the full monty.</p>
-                </div>
-                <div className="blog__quote grey-bg mb-45 p-relative fix">
-                    <img className="quote" src="assets/img/blog/quote-1.png" alt="img not found"/>
-                <blockquote>
-                    <p>After I started learning design with Quillow, I realized that I had Improved to very advanced levels.</p>
-                    <h4>Chris Collins</h4>
-                </blockquote>
-                </div>
-                <div className="blog__text mb-30">
-                    <p>Horse play it's all gone to pot codswallop easy peasy mush knees up down the pub jolly good nice one tosser it's your round lurgy, I vagabond barmy off his nut only a quid so I said is gosh Charles blow off, pardon me chip shop Richard spiffing skive off bleeding get stuffed mate porkies amongst the full monty. Daft burke you</p>
-                </div>
-                <div className="blog__link mb-35">
-                    <p>The little rotter bum bag a blinding shot gosh spifing butty eatonwha load of rubbish bamboozled. <a href="#"> https://educal.com/courses</a> </p>
-                </div>
-            </div>
-        );
-    }
+  render() {
+    return (
+      <div>
+        <div className="blog__text mb-40">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum. Sed ut
+            perspiciatis unde omnis iste natus error sit voluptatem accusantium
+            doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
+            inventore veritatis et quasi architecto beatae vitae dicta sunt
+            explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur
+            aut odit aut fugit, sed quia consequuntur magni dolores eos qui
+            ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
+            dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed
+            quia non numquam eius modi tempora incidunt ut labore et dolore
+            magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis
+            nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut
+            aliquid ex ea commodi consequatur? Quis autem vel eum iure
+            reprehenderit qui in ea voluptate velit esse quam nihil molestiae
+            consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla
+            pariatur? ut I must explain to you how all this mistaken idea of
+            denouncing pleasure and praising pain was born and I will give you a
+            complete account of the system, and expound the actual teachings of
+            the great explorer of the truth, the master-builder of human
+            happiness. No one rejects, dislikes, or avoids pleasure itself,
+            because it is pleasure.
+          </p>
+        </div>
+        <div className="blog__quote grey-bg mb-45 p-relative fix">
+          <blockquote>
+            <p>
+              Every pleasure is to be welcomed and every pain avoided. But in
+              certain circumstances and owing to the claims.
+            </p>
+            <h4>H. Rackham</h4>
+          </blockquote>
+        </div>
+        <div className="blog__text mb-30">
+          <p>
+            Nor again is there anyone who loves or pursues or desires to obtain
+            pain of itself, because it is pain, but because occasionally
+            circumstances occur in which toil and pain can procure him some
+            great pleasure. To take a trivial example, which of us ever
+            undertakes laborious physical exercise, except to obtain some
+            advantage from it? But who has any right to find fault with a man
+            who chooses to enjoy a pleasure that has no annoying consequences,
+            or one who avoids a pain that produces no resultant pleasure?
+          </p>
+        </div>
+        <div className="blog__link mb-35">
+          <p>
+            He rejects pleasures to secure other greater pleasures, or else he
+            endures pains to avoid worse pains.
+          </p>
+        </div>
+      </div>
+    );
+  }
 }
 
 export default BlogDesc;

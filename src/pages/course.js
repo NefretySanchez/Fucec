@@ -1,7 +1,7 @@
 import React from 'react';
-import Footer from '../components/Layout/Footer/Footer';
 import CourseGridMain from '../components/CourseGrid/CourseGridMain';
-import HeaderThree from '../components/Layout/Header/HeaderStyleThree';
+import FooterStyleTwo from '../components/Layout/Footer/FooterStyleTwo';
+import HeaderTwo from '../components/Layout/Header/HeaderStyleTwo';
 
 class CourseGrid extends React.Component {
 
@@ -14,9 +14,9 @@ class CourseGrid extends React.Component {
     render() {
         return (
             <React.Fragment>
-            <HeaderThree />
+            <HeaderTwo isHome={false} />
             <CourseGridMain />
-            <Footer />
+            <FooterStyleTwo />
             </React.Fragment>
         );
     }

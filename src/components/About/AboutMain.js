@@ -15,7 +15,7 @@ class AboutMain extends Component {
     return (
       <main>
         {/* breadcrumb-start */}
-        <Breadcrumb pageTitle="Más Sobre Nosotros" />
+        <Breadcrumb pageTitle="Más Sobre Nosotros" bannerImg="bg_about_page.png" />
         {/* breadcrumb-end */}
 
         {/* about-start */}

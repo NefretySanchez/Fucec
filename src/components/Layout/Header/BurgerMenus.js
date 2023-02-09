@@ -54,53 +54,43 @@ const BurgerMenus = ({ setMenuOpen, menuOpen }) => {
           </button>
         </div>
         <div className="sidebar__content">
-          <div className="logo mb-10">
-            <Link href="/">
-              <a>
-                <img src="assets/img/img_fucec/Grupo 105.svg" alt="logo" />
-              </a>
-            </Link>
-          </div>
-          <div className="mm-menu">
+          <div className="mm-menu mb-10">
             <ul>
               <li>
-                <a>Inicio</a>
+                <a href="/">Inicio</a>
               </li>
               <li>
-                <a>Nosotros</a>
+                <a href="/about">Nosotros</a>
               </li>
               <li className={blog ? "has-droupdown active" : "has-droupdown"}>
                 <a
                   onClick={() => {
                     openMobileMenu("blog");
                   }}
+                  href="#"
                 >
                   Formación
                 </a>
                 <ul className={blog ? "sub-menu active" : "sub-menu"}>
                   <li>
-                    <Link href="/blog" as="/blog">
+                    <Link href="/course">
                       <a>Cursos</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/blog-details">
+                    <Link href="/diplomados">
                       <a>Diplomados</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/blog-details">
+                    <Link href="/formacion-continua">
                       <a>Formación continua</a>
                     </Link>
                   </li>
                 </ul>
               </li>
-              <li >
-                <a
-                >
-                  Blog
-                </a>
-                
+              <li>
+                <a href="/blog">Blog</a>
               </li>
               <li>
                 <Link href="/contact">
@@ -108,15 +98,6 @@ const BurgerMenus = ({ setMenuOpen, menuOpen }) => {
                 </Link>
               </li>
             </ul>
-          </div>
-
-          <div className="sidebar__search p-relative mt-40 ">
-            <form action="#">
-              <input type="text" placeholder="¿Qué te gustaría aprender hoy?" />
-              <button type="submit">
-                <i className="fas fa-search"></i>
-              </button>
-            </form>
           </div>
         </div>
       </div>
