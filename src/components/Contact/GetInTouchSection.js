@@ -127,7 +127,7 @@ class GetInTouch extends Component {
                           <p>
                             <a
                               target="_blank"
-                              href="#"
+                              href="https://goo.gl/maps/xczvC2Tj6ZRqoZ8a7"
                             >
                               Sede Principal
                             </a>
@@ -135,7 +135,7 @@ class GetInTouch extends Component {
                           <p>
                             <a
                               target="_blank"
-                              href="#"
+                              href="https://goo.gl/maps/Gv29qaMrhgzZrpXu9"
                             >
                               Sede Arjona
                             </a>

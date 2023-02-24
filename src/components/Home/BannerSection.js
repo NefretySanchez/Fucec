@@ -18,8 +18,8 @@ class Banner extends Component {
                     <h3 className="banner__title">Sede Principal: Cartagena</h3>
                     <p>Barrio Centro, Avenida Venezuela</p>
                     <p>Edificio City Bank, Oficina 5CE</p>
-                    <Link href="#">
-                      <a className="e-btn e-btn-2">Como llegar</a>
+                    <Link href="https://goo.gl/maps/xczvC2Tj6ZRqoZ8a7">
+                      <a className="e-btn e-btn-2" target="_blank">Como llegar</a>
                     </Link>
                   </div>
                   <div className="banner__thumb d-none d-sm-block d-md-none d-lg-block">
@@ -39,8 +39,8 @@ class Banner extends Component {
                     <span>Nuestras sedes</span>
                     <h3 className="banner__title">Sede Arjona</h3>
                     <p>Calle Nueva, Cra. 45 #51-167 a 51-1</p>
-                    <Link href="#">
-                      <a className="e-btn e-btn-2 banner-btn">Como llegar</a>
+                    <Link href="https://goo.gl/maps/Gv29qaMrhgzZrpXu9">
+                      <a className="e-btn e-btn-2 banner-btn" target="_blank">Como llegar</a>
                     </Link>
                   </div>
                   <div className="banner__thumb d-none d-sm-block d-md-none d-lg-block">

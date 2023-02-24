@@ -26,7 +26,7 @@ export default () => (
           <div className="col-xxl-5 col-xl-5 col-lg-5">
             <div className="course__menu d-flex justify-content-lg-end mb-60">
               <div className="masonary-menu filter-button-group">
-                <Link href="#">Conocer todos los programas</Link>
+                <Link href="/course">Conocer todos los programas</Link>
               </div>
             </div>
           </div>
