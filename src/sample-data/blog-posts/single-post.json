@@ -1,9 +1,51 @@
 [
+
   {
-    "id": "8",
-    "title": "Lorem ipsum dior amet.",
-    "text": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best.",
+    "id": "1",
+    "title": "La educación contra la exclusión",
     "image": "assets/img/img_fucec/blog-item.png",
-    "url": "/Build a beautiful website with Quillow"
+    "text": "<p>Una apreciación muy recurrente en los distintos escenarios de discusión académica, política o coloquial es que estamos en una sociedad con altos indicadores de exclusión.</p>",
+    "url": "/la-educacion-contra-la-exclusion",
+    "date": "Febrero 27, 2023"
+  },
+  {
+    "id": "2",
+    "tag": "Organización",
+    "title": "La neuroeducación. Un reto para padres y docentes",
+    "image": "assets/img/img_fucec/blog-item-2.png",
+    "authorImage": "assets/img/img_fucec/Elipse 10.png",
+    "authorTitle": "Jaime Acosta",
+    "url": "/la-neuroeducacion",
+    "date": "Febrero 27, 2023"
+  },
+  {
+    "id": "3",
+    "tag": "Tecnología",
+    "title": "Neoesclavitud",
+    "image": "assets/img/img_fucec/Rectángulo 25.png",
+    "authorImage": "assets/img/img_fucec/Elipse 10.png",
+    "authorTitle": "Ariel Espinosa",
+    "url": "/neoesclavitud",
+    "date": "Febrero 27, 2023"
+  },
+  {
+    "id": "4",
+    "tag": "Tecnología",
+    "title": "Una enfermedad actual…",
+    "image": "assets/img/img_fucec/Rectángulo 25.png",
+    "authorImage": "assets/img/img_fucec/Elipse 10.png",
+    "authorTitle": "Ariel Bello",
+    "url": "/una-enfermedad-actual",
+    "date": "Febrero 27, 2023"
+  },
+  {
+    "id": "5",
+    "tag": "Tecnología",
+    "title": "Teatro y derecho, una innovación social y educativa para una formación más humanista y socialmente responsable del abogado",
+    "image": "assets/img/img_fucec/Rectángulo 25.png",
+    "authorImage": "assets/img/img_fucec/Elipse 10.png",
+    "authorTitle": "Alonso Cortina",
+    "url": "/teatro-y-derecho",
+    "date": "Febrero 27, 2023"
   }
 ]

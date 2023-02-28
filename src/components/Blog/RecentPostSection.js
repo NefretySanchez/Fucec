@@ -22,9 +22,7 @@ class RecentPost extends Component {
                   <span>Julio 22, 2022</span>
                 </div>
                 <h6 className="rc__title">
-                  <Link href="/blog-details">
-                    <a>Lorem Ipsum dior amet.</a>
-                  </Link>
+                  <a href="/blog-details">Lorem Ipsum dior amet.</a>
                 </h6>
               </div>
             </div>
@@ -40,9 +38,7 @@ class RecentPost extends Component {
                   <span>Julio 22, 2022</span>
                 </div>
                 <h6 className="rc__title">
-                  <Link href="/blog-details">
-                    <a>Lorem Ipsum dior amet.</a>
-                  </Link>
+                  <a href="/blog-details">Lorem Ipsum dior amet.</a>
                 </h6>
               </div>
             </div>
@@ -58,9 +54,7 @@ class RecentPost extends Component {
                   <span>Julio 22, 2022</span>
                 </div>
                 <h6 className="rc__title">
-                  <Link href="/blog-details">
-                    <a>Lorem Ipsum dior amet.</a>
-                  </Link>
+                  <a href="/blog-details">Lorem Ipsum dior amet.</a>
                 </h6>
               </div>
             </div>

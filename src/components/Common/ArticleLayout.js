@@ -2,21 +2,20 @@ import React, { Component } from "react";
 import Link from "next/link";
 
 const ArticleLayout = ({ post, color }) => {
- 
   return (
     <div className="blog__wrapper">
       <div className="blog__item white-bg mb-30 transition-3 fix">
         <div className="blog__thumb w-img fix">
-          <Link href={post.url}>
+          <a href={post.url}>
             <img src={"/" + post.image} alt="blog image" />
-          </Link>
+          </a>
         </div>
         <div className="blog__content">
           <div className="blog__tag">
             <span className={color}>{post.tag}</span>
           </div>
           <h3 className="blog__title">
-            <Link href={post.url}>{post.title}</Link>
+            <a href={post.url}>{post.title}</a>
           </h3>
 
           <div className="blog__meta d-flex align-items-center justify-content-between">

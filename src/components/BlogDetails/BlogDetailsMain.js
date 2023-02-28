@@ -94,7 +94,7 @@ class BlogDetailsMain extends Component {
                       </div>
                       <div className="blog__text mb-40">
                         <h3>{article.title}</h3>
-                        <p>{article.text}</p>
+                        {article.text}
                       </div>
 
                       <BlogRecent />

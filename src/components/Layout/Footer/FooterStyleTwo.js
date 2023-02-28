@@ -72,19 +72,13 @@ const FooterStyleTwo = () => {
                     <div className="footer__link footer__link-2">
                       <ul>
                         <li>
-                          <Link href="/about">
-                            <a>Nosotros</a>
-                          </Link>
+                          <a href="/about">Nosotros</a>
                         </li>
                         <li>
-                          <Link href="/course">
-                            <a>Formación</a>
-                          </Link>
+                          <a href="/course">Formación</a>
                         </li>
                         <li>
-                          <Link href="/blog">
-                            <a>Blog</a>
-                          </Link>
+                          <a href="/blog">Blog</a>
                         </li>
                       </ul>
                     </div>
@@ -102,9 +96,7 @@ const FooterStyleTwo = () => {
                     <div className="footer__link footer__link-2">
                       <ul>
                         <li>
-                          <Link href="#">
-                            <a>Tu Moddle</a>
-                          </Link>
+                          <a href="#">Tu Moddle</a>
                         </li>
                       </ul>
                     </div>

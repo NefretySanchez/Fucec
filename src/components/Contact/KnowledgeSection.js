@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Link from "next/link";
 
 class Knowledge extends Component {
   render() {
@@ -32,9 +31,10 @@ class Knowledge extends Component {
                     Descarga nuestro brochure y conoce más de nuestra oferta
                     académica.
                   </p>
-                  <Link href="#">
-                    <a className="e-btn e-btn-border">Descargar Brochure</a>
-                  </Link>
+
+                  <a href="#" className="e-btn e-btn-border">
+                    Descargar Brochure
+                  </a>
                 </div>
               </div>
             </div>

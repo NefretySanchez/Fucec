@@ -73,19 +73,13 @@ const BurgerMenus = ({ setMenuOpen, menuOpen }) => {
                 </a>
                 <ul className={blog ? "sub-menu active" : "sub-menu"}>
                   <li>
-                    <Link href="/course">
-                      <a>Cursos</a>
-                    </Link>
+                    <a href="/course">Cursos</a>
                   </li>
                   <li>
-                    <Link href="/diplomados">
-                      <a>Diplomados</a>
-                    </Link>
+                    <a href="/diplomados">Diplomados</a>
                   </li>
                   <li>
-                    <Link href="/formacion-continua">
-                      <a>Formación continua</a>
-                    </Link>
+                    <a href="/formacion-continua">Formación continua</a>
                   </li>
                 </ul>
               </li>
@@ -93,9 +87,7 @@ const BurgerMenus = ({ setMenuOpen, menuOpen }) => {
                 <a href="/blog">Blog</a>
               </li>
               <li>
-                <Link href="/contact">
-                  <a>Contacto</a>
-                </Link>
+                <a href="/contact">Contacto</a>
               </li>
             </ul>
           </div>

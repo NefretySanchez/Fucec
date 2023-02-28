@@ -2,31 +2,51 @@
   {
     "id": "1",
     "tag": "Emprendimiento",
-    "title": "Lorem Ipsum dioramet.",
+    "title": "La educación contra la exclusión",
     "image": "assets/img/img_fucec/blog-item.png",
     "authorImage": "assets/img/img_fucec/Elipse 10.png",
-    "authorTitle": "John Doe",
-    "url": "/blog-details",
-    "date": "Julio 22, 2022"
+    "authorTitle": "Milton Acosta",
+    "url": "/la-educacion-contra-la-exclusion",
+    "date": "Febrero 27, 2023"
   },
   {
     "id": "2",
     "tag": "Organización",
-    "title": "Lorem Ipsum dioramet.",
+    "title": "La neuroeducación. Un reto para padres y docentes",
     "image": "assets/img/img_fucec/blog-item-2.png",
     "authorImage": "assets/img/img_fucec/Elipse 10.png",
-    "authorTitle": "John Doe",
-    "url": "/blog-details",
-    "date": "Julio 22, 2022"
+    "authorTitle": "Jaime Acosta",
+    "url": "/la-neuroeducacion",
+    "date": "Febrero 27, 2023"
   },
   {
     "id": "3",
     "tag": "Tecnología",
-    "title": "Lorem Ipsum dioramet.",
+    "title": "Neoesclavitud",
     "image": "assets/img/img_fucec/Rectángulo 25.png",
     "authorImage": "assets/img/img_fucec/Elipse 10.png",
-    "authorTitle": "John Doe",
-    "url": "/blog-details",
-    "date": "Julio 22, 2022"
+    "authorTitle": "Ariel Espinosa",
+    "url": "/neoesclavitud",
+    "date": "Febrero 27, 2023"
+  },
+  {
+    "id": "4",
+    "tag": "Tecnología",
+    "title": "Una enfermedad actual…",
+    "image": "assets/img/img_fucec/Rectángulo 25.png",
+    "authorImage": "assets/img/img_fucec/Elipse 10.png",
+    "authorTitle": "Ariel Bello",
+    "url": "/una-enfermedad-actual",
+    "date": "Febrero 27, 2023"
+  },
+  {
+    "id": "5",
+    "tag": "Tecnología",
+    "title": "Teatro y derecho, una innovación social y educativa para una formación más humanista y socialmente responsable del abogado",
+    "image": "assets/img/img_fucec/Rectángulo 25.png",
+    "authorImage": "assets/img/img_fucec/Elipse 10.png",
+    "authorTitle": "Alonso Cortina",
+    "url": "/teatro-y-derecho",
+    "date": "Febrero 27, 2023"
   }
 ]

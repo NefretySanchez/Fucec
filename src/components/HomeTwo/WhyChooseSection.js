@@ -21,17 +21,15 @@ class WhyChoose extends Component {
                   </p>
                 </div>
                 <div className="why__btn">
-                  <Link href="#">
-                    <a className="e-btn e-btn-3 mr-30">Descargar brochure</a>
-                  </Link>
+                  <a href="#" className="e-btn e-btn-3 mr-30">
+                    Descargar brochure
+                  </a>
 
-                  <Link href="/course">
-                    <a className="link-btn">
-                      Ver cursos
-                      <i className="fas fa-arrow-right"></i>
-                      <i className="fas fa-arrow-right"></i>
-                    </a>
-                  </Link>
+                  <a href="/course" className="link-btn">
+                    Ver cursos
+                    <i className="fas fa-arrow-right"></i>
+                    <i className="fas fa-arrow-right"></i>
+                  </a>
                 </div>
               </div>
             </div>

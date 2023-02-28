@@ -32,24 +32,23 @@ class About extends Component {
                   />
                 </div>
                 <div className="about__student ml-270 mt--80">
-           
-                      <img
-                        src="assets/img/img_fucec/Elipse 6.png"
-                        alt="img not found"
-                      />
-                      <img
-                        src="assets/img/img_fucec/Elipse 7.png"
-                        alt="img not found"
-                      />
-                      <img
-                        src="assets/img/img_fucec/Elipse 8.png"
-                        alt="img not found"
-                      />
-                      <img
-                        src="assets/img/img_fucec/Elipse 9.png"
-                        alt="img not found"
-                      />
-                    
+                  <img
+                    src="assets/img/img_fucec/Elipse 6.png"
+                    alt="img not found"
+                  />
+                  <img
+                    src="assets/img/img_fucec/Elipse 7.png"
+                    alt="img not found"
+                  />
+                  <img
+                    src="assets/img/img_fucec/Elipse 8.png"
+                    alt="img not found"
+                  />
+                  <img
+                    src="assets/img/img_fucec/Elipse 9.png"
+                    alt="img not found"
+                  />
+
                   <p>Únase a más de +4K estudiantes.</p>
                 </div>
               </div>
@@ -68,22 +67,23 @@ class About extends Component {
                 <div className="about__list mb-35">
                   <ul>
                     <li className="d-flex align-items-center">
-                      <i className="fas fa-check-circle"></i> Fácil de usar y a tu
-                      ritmo
+                      <i className="fas fa-check-circle"></i> Fácil de usar y a
+                      tu ritmo
                     </li>
                     <li className="d-flex align-items-center">
                       <i className="fas fa-check-circle"></i> Accede a más de 20
                       programas en línea
                     </li>
                     <li className="d-flex align-items-center">
-                      <i className="fas fa-check-circle"></i> Aprende de una manera
-                      dinámica
+                      <i className="fas fa-check-circle"></i> Aprende de una
+                      manera dinámica
                     </li>
                   </ul>
                 </div>
-                <Link href="/about">
-                  <a className="e-btn e-btn-border">Saber más</a>
-                </Link>
+
+                <a href="/about" className="e-btn e-btn-border">
+                  Saber más
+                </a>
               </div>
             </div>
           </div>

@@ -30,9 +30,7 @@ class Blog extends Component {
                     <span>Emprendimiento</span>
                   </div>
                   <h3 className="blog__title">
-                    <Link href="/blog-details">
-                      <a>Lorem Ipsum dior amet.</a>
-                    </Link>
+                    <a href="/blog-details">Lorem Ipsum dior amet.</a>
                   </h3>
 
                   <div className="blog__meta d-flex align-items-center justify-content-between">
@@ -57,23 +55,17 @@ class Blog extends Component {
             <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6">
               <div className="blog__item white-bg mb-30 transition-3 fix">
                 <div className="blog__thumb w-img fix">
-                  <Link href="/blog-details">
-                    <a>
-                      <img
-                        src="assets/img/img_fucec/blog-item-2.png"
-                        alt="img not found"
-                      />
-                    </a>
-                  </Link>
+                  <img
+                    src="assets/img/img_fucec/blog-item-2.png"
+                    alt="img not found"
+                  />
                 </div>
                 <div className="blog__content">
                   <div className="blog__tag">
                     <span className="blue">Organización</span>
                   </div>
                   <h3 className="blog__title">
-                    <Link href="/blog-details">
-                      <a>Lorem Ipsum dior amet.</a>
-                    </Link>
+                    <a href="/blog-details">Lorem Ipsum dior amet.</a>
                   </h3>
 
                   <div className="blog__meta d-flex align-items-center justify-content-between">
@@ -108,9 +100,7 @@ class Blog extends Component {
                     <span className="green">Tecnología</span>
                   </div>
                   <h3 className="blog__title">
-                    <Link href="/blog-details">
-                      <a>Lorem Ipsum dior amet.</a>
-                    </Link>
+                    <a href="/blog-details">Lorem Ipsum dior amet.</a>
                   </h3>
                   <div className="blog__meta d-flex align-items-center justify-content-between">
                     <div className="blog__author d-flex align-items-center">

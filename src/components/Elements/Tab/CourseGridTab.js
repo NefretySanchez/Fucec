@@ -7,7 +7,6 @@ const Tabs = dynamic(
 import { Tab, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import PaginationSection from "../../Common/Pagination";
-import Link from "next/link";
 
 export default () => (
   <section className="course__area pt-120 pb-120">
@@ -136,13 +135,11 @@ export default () => (
                           <span>Virtual</span>
                         </div>
                         <div className="course__btn">
-                          <Link href="#">
-                            <a className="link-btn">
-                              Descargar brochure
-                              <i className="fas fa-arrow-right"></i>
-                              <i className="fas fa-arrow-right"></i>
-                            </a>
-                          </Link>
+                          <a href="#" className="link-btn">
+                            Descargar brochure
+                            <i className="fas fa-arrow-right"></i>
+                            <i className="fas fa-arrow-right"></i>
+                          </a>
                         </div>
                       </div>
                     </div>
@@ -174,13 +171,11 @@ export default () => (
                           <span className="sky-blue">Virtual</span>
                         </div>
                         <div className="course__btn">
-                          <Link href="#">
-                            <a className="link-btn">
-                              Descargar brochure
-                              <i className="fas fa-arrow-right"></i>
-                              <i className="fas fa-arrow-right"></i>
-                            </a>
-                          </Link>
+                          <a href="#" className="link-btn">
+                            Descargar brochure
+                            <i className="fas fa-arrow-right"></i>
+                            <i className="fas fa-arrow-right"></i>
+                          </a>
                         </div>
                       </div>
                     </div>
@@ -215,13 +210,11 @@ export default () => (
                           <span className="yellow">Virtual</span>
                         </div>
                         <div className="course__btn">
-                          <Link href="#">
-                            <a className="link-btn">
-                              Descargar brochure
-                              <i className="fas fa-arrow-right"></i>
-                              <i className="fas fa-arrow-right"></i>
-                            </a>
-                          </Link>
+                          <a href="#" className="link-btn">
+                            Descargar brochure
+                            <i className="fas fa-arrow-right"></i>
+                            <i className="fas fa-arrow-right"></i>
+                          </a>
                         </div>
                       </div>
                     </div>
@@ -255,13 +248,11 @@ export default () => (
                           <span className="sky-blue">Virtual</span>
                         </div>
                         <div className="course__btn">
-                          <Link href="#">
-                            <a className="link-btn">
-                              Descargar brochure
-                              <i className="fas fa-arrow-right"></i>
-                              <i className="fas fa-arrow-right"></i>
-                            </a>
-                          </Link>
+                          <a href="#" className="link-btn">
+                            Descargar brochure
+                            <i className="fas fa-arrow-right"></i>
+                            <i className="fas fa-arrow-right"></i>
+                          </a>
                         </div>
                       </div>
                     </div>
@@ -296,13 +287,11 @@ export default () => (
                           <span className="yellow">Virtual</span>
                         </div>
                         <div className="course__btn">
-                          <Link href="#">
-                            <a className="link-btn">
-                              Descargar brochure
-                              <i className="fas fa-arrow-right"></i>
-                              <i className="fas fa-arrow-right"></i>
-                            </a>
-                          </Link>
+                          <a href="#" className="link-btn">
+                            Descargar brochure
+                            <i className="fas fa-arrow-right"></i>
+                            <i className="fas fa-arrow-right"></i>
+                          </a>
                         </div>
                       </div>
                     </div>
@@ -335,13 +324,11 @@ export default () => (
                           <span>Virtual</span>
                         </div>
                         <div className="course__btn">
-                          <Link href="#">
-                            <a className="link-btn">
-                              Descargar brochure
-                              <i className="fas fa-arrow-right"></i>
-                              <i className="fas fa-arrow-right"></i>
-                            </a>
-                          </Link>
+                          <a href="#" className="link-btn">
+                            Descargar brochure
+                            <i className="fas fa-arrow-right"></i>
+                            <i className="fas fa-arrow-right"></i>
+                          </a>
                         </div>
                       </div>
                     </div>
@@ -375,13 +362,11 @@ export default () => (
                           <span className="sky-blue">Virtual</span>
                         </div>
                         <div className="course__btn">
-                          <Link href="#">
-                            <a className="link-btn">
-                              Descargar brochure
-                              <i className="fas fa-arrow-right"></i>
-                              <i className="fas fa-arrow-right"></i>
-                            </a>
-                          </Link>
+                          <a href="#" className="link-btn">
+                            Descargar brochure
+                            <i className="fas fa-arrow-right"></i>
+                            <i className="fas fa-arrow-right"></i>
+                          </a>
                         </div>
                       </div>
                     </div>
@@ -416,13 +401,11 @@ export default () => (
                           <span className="yellow">Virtual</span>
                         </div>
                         <div className="course__btn">
-                          <Link href="#">
-                            <a className="link-btn">
-                              Descargar brochure
-                              <i className="fas fa-arrow-right"></i>
-                              <i className="fas fa-arrow-right"></i>
-                            </a>
-                          </Link>
+                          <a href="#" className="link-btn">
+                            Descargar brochure
+                            <i className="fas fa-arrow-right"></i>
+                            <i className="fas fa-arrow-right"></i>
+                          </a>
                         </div>
                       </div>
                     </div>
@@ -455,13 +438,11 @@ export default () => (
                           <span>Virtual</span>
                         </div>
                         <div className="course__btn">
-                          <Link href="#">
-                            <a className="link-btn">
-                              Descargar brochure
-                              <i className="fas fa-arrow-right"></i>
-                              <i className="fas fa-arrow-right"></i>
-                            </a>
-                          </Link>
+                          <a href="#" className="link-btn">
+                            Descargar brochure
+                            <i className="fas fa-arrow-right"></i>
+                            <i className="fas fa-arrow-right"></i>
+                          </a>
                         </div>
                       </div>
                     </div>
