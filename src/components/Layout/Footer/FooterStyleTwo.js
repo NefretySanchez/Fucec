@@ -12,14 +12,12 @@ const FooterStyleTwo = () => {
                 <div className="footer__widget mb-50">
                   <div className="footer__widget-head mb-22">
                     <div className="footer__logo">
-                      <Link href="#">
-                        <a>
-                          <img
-                            src="assets/img/img_fucec/Grupo 24.svg"
-                            alt="img not found"
-                          />
-                        </a>
-                      </Link>
+                      <a href="/">
+                        <img
+                          src="assets/img/img_fucec/Grupo 24.svg"
+                          alt="img not found"
+                        />
+                      </a>
                     </div>
                   </div>
                   <div className="footer__widget-body footer__widget-body-2">

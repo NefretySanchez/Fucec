@@ -60,14 +60,12 @@ const HeaderTwo = (props) => {
               <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-2 col-sm-4 col-6">
                 <div className="header__left d-flex">
                   <div className="logo">
-                    <Link href="/">
-                      <a>
-                        <img
-                          src="assets/img/img_fucec/Grupo 105.svg"
-                          alt="logo"
-                        />
-                      </a>
-                    </Link>
+                    <a href="/">
+                      <img
+                        src="assets/img/img_fucec/Grupo 105.svg"
+                        alt="logo"
+                      />
+                    </a>
                   </div>
                 </div>
               </div>
