@@ -1,5 +1,8 @@
 import React from "react";
 import Link from "next/link";
+const SendMail = () => {
+  console.log(1);
+};
 
 const FooterStyleTwo = () => {
   return (
@@ -110,7 +113,7 @@ const FooterStyleTwo = () => {
                   </div>
                   <div className="footer__widget-body">
                     <div className="footer__subscribe footer__subscribe-2">
-                      <form action="#">
+                      <form action="javascript:void(0);" onSubmit={SendMail}>
                         <div className="footer__subscribe-input mb-15">
                           <input type="email" placeholder="Escribe tu correo" />
                           <button type="submit">
